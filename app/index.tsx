@@ -5,9 +5,7 @@ import TodoItem from "@/components/TodoItem"
 import { useTheme } from "@/context/ThemeContext"
 import { api } from "@/convex/_generated/api"
 import { useMutation, useQuery } from "convex/react"
-// import LinearGradient from "expo-linear-gradient"
 import { LinearGradient } from "expo-linear-gradient"
-// import { LinearGradient as ExpoLinearGradient } from 'expo-linear-gradient'
 import { useState } from "react"
 import { SafeAreaView, ScrollView, StyleSheet, Text, TextInput, TouchableOpacity, View } from "react-native"
 

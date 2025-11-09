@@ -40,7 +40,7 @@ const lightColors: ThemeColors = {
 const darkColors: ThemeColors = {
   primary: "#A78BFA",
   background: "#0F172A",
-  surface: "#1E293B",
+  surface: "#1E293B", 
   text: "#F1F5F9",
   textSecondary: "#CBD5E1",
   border: "#334155",
