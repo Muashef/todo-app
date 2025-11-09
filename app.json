@@ -3,7 +3,9 @@
     "name": "todo-app",
     "slug": "todo-app",
     "version": "1.0.0",
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTabletMode": true
     },
@@ -11,7 +13,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.muashef.todoapp"
     },
     "web": {
       "favicon": "./assets/images/favicon.png"
@@ -24,6 +27,15 @@
           "asyncRoutes": true
         }
       ]
-    ]
+    ],
+    "extra": {
+      "router": {
+        "origin": false,
+        "asyncRoutes": true
+      },
+      "eas": {
+        "projectId": "34dd8c7f-ec65-496a-be58-40d4f2f6de15"
+      }
+    }
   }
 }
