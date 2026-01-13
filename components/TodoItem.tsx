@@ -1,4 +1,3 @@
-"use client"
 import { useTheme } from "@/context/ThemeContext"
 import { AntDesign } from "@expo/vector-icons"
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native"

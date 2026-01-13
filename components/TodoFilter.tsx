@@ -1,4 +1,3 @@
-"use client"
 import { useTheme } from "@/context/ThemeContext"
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native"
 

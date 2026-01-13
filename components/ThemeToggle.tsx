@@ -1,4 +1,3 @@
-"use client"
 import { useTheme } from "@/context/ThemeContext"
 import { Feather } from "@expo/vector-icons"
 import { StyleSheet, TouchableOpacity } from "react-native"
